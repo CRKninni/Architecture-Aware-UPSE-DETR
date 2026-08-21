@@ -1,0 +1,13 @@
+{
+  "method": "upse_detr_v3",
+  "protocol": "Chefer Table 1 — COCO val, IoU 0.20:0.95, skip AP_small",
+  "units": "percent (same as paper)",
+  "log": "/home/gen/crk/upse-detr/eval_ap_upse_detr_v3_smi2.log",
+  "ours": {
+    "bbox": {"AP": 51.8, "AP_M": 56.3, "AP_L": 67.5, "AR": 67.3, "AR_M": 72.8, "AR_L": 85.1},
+    "segm": {"AP": 13.2, "AP_M": 14.4, "AP_L": 25.0, "AR": 19.3, "AR_M": 23.5, "AR_L": 34.0}
+  },
+  "chefer_repro_segm": {"AP": 13.1, "AP_M": 14.4, "AP_L": 24.6, "AR": 19.3, "AR_M": 23.9, "AR_L": 33.2},
+  "paper_chefer_segm": {"AP": 13.1, "AP_M": 14.4, "AP_L": 24.6, "AR": 19.3, "AR_M": 23.9, "AR_L": 33.2},
+  "delta_vs_chefer_repro": {"AP": 0.1, "AP_M": 0.0, "AP_L": 0.4, "AR": 0.0, "AR_M": -0.4, "AR_L": 0.8}
+}
