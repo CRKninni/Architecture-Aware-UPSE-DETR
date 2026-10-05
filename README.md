@@ -16,6 +16,8 @@ Chefer anchor → LibraGrad signals → peak-gated fuse + background crush. Beat
 
 Full table: [`results/ap_upse_v3_segm.json`](results/ap_upse_v3_segm.json)
 
+**Evaluation details:** COCO 2017 val segmentation AP/AR — [`docs/EVALUATION.md`](docs/EVALUATION.md) (AOPC applies to VQA repos only).
+
 ## Reproduce
 
 ```bash
